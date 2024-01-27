@@ -7,7 +7,7 @@ for i in range(0, 99):
     elif r == 11:
         r = 'b'
     elif r == 12:
-	r = 'c'
+        r = 'c'
     elif r == 13:
         r = 'd'
     elif r == 14:
