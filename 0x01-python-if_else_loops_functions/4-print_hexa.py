@@ -13,5 +13,5 @@ for i in range(0, 99):
     elif r == 14:
         r = 'e'
     elif r == 15:
-	r = 'f'
+        r = 'f'
     print('{:} = 0x{:}{:}'.format(i, d if d > 0 else '', r))
