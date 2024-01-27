@@ -3,11 +3,11 @@ for i in range(0, 99):
     d = i // 16
     r = i % 16
     if r == 10:
-	r = 'a'
+        r = 'a'
     elif r == 11:
-	r = 'b'
+        r = 'b'
     elif r == 12:
-        r = 'c'
+	r = 'c'
     elif r == 13:
         r = 'd'
     elif r == 14:
