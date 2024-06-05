@@ -6,12 +6,14 @@
   */
 int is_palindrome(listint_t **head)
 {
-	listint_t *r = *head;
+	listint_t *r = reverse_listint(head);
 
 	while (*head)
 	{
 		if ((*head)->n != r->n)
+		{
 			return (0);
+		}
 		*head = (*head)->next;
 		r = r->next;
 	}
