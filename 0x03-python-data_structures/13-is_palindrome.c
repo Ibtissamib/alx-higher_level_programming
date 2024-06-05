@@ -6,7 +6,8 @@
   */
 int is_palindrome(listint_t **head)
 {
-	listint_t *r = reverse_listint(head);
+	listint_t **actual = head;
+	listint_t *r = reverse_listint(actual);
 
 	while (*head)
 	{
